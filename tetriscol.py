@@ -62,7 +62,7 @@ def game_loop():
                 if not collision():
                     board.oy += 1 
         else:
-            print("Please give a valid input: a, d, w, s, q")       
+            print("Please give a valid input: a, d, w, s, x, q")       
 
 current_brick = draw_brick()        
         
