@@ -25,7 +25,7 @@ class Board:
         for row in self.matrix:
             for tile in row:
                 color = colors[tile]
-                print(colored(("*"," ")[tile==0], color), end="")
+                print(colored(("█"," ")[tile==0], color), end="")
             print('\n', end="")
         print('\n')
         
